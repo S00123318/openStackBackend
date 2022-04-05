@@ -1,16 +1,21 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors')
-const path = require('path');
+//const path = require('path');
 
 const api = require('./routes/api');
+//const res = require('express/lib/response');
 const port = 3000;
 
 const app = express();
-app.use(cors())
-app.use(express.static(path.join(__dirname, 'dist')));
+//app.use(cors())
+//app.use(express.static(path.join(__dirname, 'dist')));
 
 app.use(bodyParser.json()); 
+
+app.get('/', function(req, res){
+    res.send('Dale')
+})
 
 app.use('/api', api);
 

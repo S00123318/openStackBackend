@@ -9,8 +9,8 @@
   "license": "ISC",
   "dependencies": {
     "bcrupt": "*",
-    "cors": "*",
     "body-parse": "*",
+    "cors": "^2.8.5",
     "dotenv": "8.2.0",
     "express": "*",
     "jsonwebtoken": "8.5.1",
