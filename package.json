@@ -1,0 +1,23 @@
+{
+  "name": "expressmovie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrupt": "*",
+    "cors": "*",
+    "body-parse": "*",
+    "dotenv": "8.2.0",
+    "express": "*",
+    "jsonwebtoken": "8.5.1",
+    "mysql2": "*",
+    "sequelize": "*"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
