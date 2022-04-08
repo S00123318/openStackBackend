@@ -8,7 +8,7 @@ const api = require('./routes/api');
 const port = 3000;
 
 const app = express();
-//app.use(cors())
+app.use(cors())
 //app.use(express.static(path.join(__dirname, 'dist')));
 
 app.use(bodyParser.json()); 
